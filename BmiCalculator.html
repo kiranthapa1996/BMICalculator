@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>BMI Calculator using simple JavaScript Function</title>
+        <body></body>
+    </head>
+    <script>
+        var a= prompt("Enter your weight in kg:");
+        var b= prompt("Enter your height in meter:");
+
+        function bmiCalculator(weight,height){
+         var bmi= (weight/(height*height));
+         return bmi;
+}
+        var calculator= bmiCalculator(a,b);
+        alert("According to your height and weight your BMI is:"+" "+calculator);
+
+    </script>
+</html>
+
